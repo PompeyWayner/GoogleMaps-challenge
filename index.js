@@ -4,8 +4,8 @@ var markers = [];
 var infoWindow;
 function initMap() {
     var losAngeles = {
-        lat: 34.063380,
-        lng: -118.358080
+        lat: 51.509865,
+        lng: -0.118092
     }
     map = new google.maps.Map(document.getElementById('map'), {
         center: losAngeles,
@@ -18,7 +18,7 @@ function initMap() {
 
 function searchStores() {
     var foundStores = [];
-    var zipCode = document.getElementById('zip-code-input').value;
+    var zipCode = document.getElementById('postcode-code-input').value;
     if (zipCode) {
         stores.forEach(function (store) {
             var postal = store.address.postalCode.substring(0, 5);
@@ -57,15 +57,20 @@ function setOnClickListener() {
 function displayStores(stores) {
     var storesHtml = "";
     stores.forEach(function (store, index) {
-        var address = store.addressLines;
+        console.log("entered displaystores()")
+        //var address = store.addressLines;
+        
+        //var address1 = store.address.streetAddressLine1;
+        var name = store.name;
         var phone = store.phoneNumber;
+        var stadium = store.stadium;
         storesHtml += `
             <div class="store-container">
                 <div class="store-container-background">
                     <div class="store-info-container">
                         <div class="store-address">
-                            <span>${address[0]}</span>
-                            <span>${address[1]}</span>
+                            <span>${name}</span>
+                            <span>${stadium}</span>
                         </div>
                         <div class="store-phone-number">${phone}</div>
                     </div>
@@ -89,24 +94,21 @@ function showStoresMarkers(stores) {
             store.coordinates.latitude,
             store.coordinates.longitude);
         var name = store.name;
-        var address = store.addressLines[0];
-        var statusText = store.openStatusText;
+        var address = store.address.streetAddressLine1;
+       // var statusText = store.openStatusText;
         var phone = store.phoneNumber;
         bounds.extend(latlng);
-        createMarker(latlng, name, address, statusText, phone, index);
+        createMarker(latlng, name, address, phone, index);
     })
     map.fitBounds(bounds);
 }
 
 
-function createMarker(latlng, name, address, statusText, phone, index) {
+function createMarker(latlng, name, address, phone, index) {
     var html = `
         <div class="store-info-window">
             <div class="store-info-name">
                 ${name}
-            </div>
-            <div class="store-info-status">
-                ${statusText}
             </div>
             <div class="store-info-address">
                 <div class="circle">
