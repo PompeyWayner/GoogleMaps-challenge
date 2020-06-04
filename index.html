@@ -8,31 +8,46 @@
     <script src="js/club-data.js"></script>
 </head>
 <body>
-    <div class="title">Premier League <br> Stadium Locator</div>
-    <div class="search-container">
-        <div class="search">
-            <input id="postcode-code-input" type="text" placeholder="Enter postcode" />
-            <i class="fas fa-search" onclick="searchStores()"></i>
+    <div class=" menu">
+        <header>
+            <div class="title">Premier League </div>
+            <div class="title2">F<i class="far fa-futbol"></i><i class="far fa-futbol"></i>TBALL STADIUM</div>
+            <div class="title3">Locator</div>
+        </header>
+
+
+        <div class="search-container">
+            <div class="search">
+                <input id="postcode-code-input" type="text" placeholder="Enter postcode" />
+                <i class="fas fa-search" onclick="searchClubs()"></i>
+            </div>
         </div>
-    </div>
-    <div class="stores-list-container">
-        <div class="stores-list">
-            <div class="store-container">
-                <div class="store-info-container">
-                    <div class="store-address">
-                        <span>8480 Beverly Blvd</span>
-                        <span>Los Angeles, CA 90048</span>
+
+
+        <div class="stores-list-container">
+            <div class="stores-list">
+                <div class="store-container">
+                    <div class="store-info-container">
+                        <div class="store-address">
+                            <span>8480 Beverly Blvd</span>
+                            <span>Los Angeles, CA 90048</span>
+                        </div>
+                        <div class="store-phone-number">356-345-4654</div>
                     </div>
-                    <div class="store-phone-number">356-345-4654</div>
-                </div>
-                <div class="store-number-container">
-                    <div class="store-number">
-                        1
+                    <div class="store-number-container">
+                        <div class="store-number">
+                            1
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <footer class="footer"> Produced by Wayne Sandford</footer>
     </div>
+
+    
+
     <div id="map"></div>
     <script src="js/index.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOPmybt9HzMidcJJBGZoyjJNomq8_fpWQ&callback=initMap"

@@ -1,33 +1,67 @@
 body {
     height: 100%;
-    margin: 0;
-    padding: 0;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #5157b0;
 }
 
 #map {
-    height: 100vh;
+    grid-column: 2;
+    height: 96vh;
+    #width: 920px;
+    border: 5px solid #5157b0;
+    border-radius: 30px;
+    left: 0.3125rem;
+}
+
+header {
+    grid-row: 1;
+}
+
+
+
+.menu {
+    grid-column: 1;
+    display: grid;
+    grid-template-rows: 20% 15% 60% 5%;
+    height: 96vh;
+    border: 5px solid #5157b0;
+    border-radius: 30px;
+    # background-color: #aadaff;
+    background-image: url("../stadium_photo.JPG");
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .title {
-    position: absolute;
-    top: 80px;
-    left: 50px;
-    font-size: 30px;
-    z-index: 30;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #e5e6ec;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 2rem;
     font-weight: bold;
-    text-transform: uppercase;
-    color: #333;
+    color: #e5e6ec;
+}
+
+.title3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e5e6ec;
 }
 
 .search-container {
-    width: 350px;
-    height: 60px;
+    justify-self: center;
+    grid-row: 2;
+    width: 22rem;
+    height: 3.75rem;
     background-color: #454E53;
-    position: absolute;
-    z-index: 30;
-    top: 230px;
-    left: 50px;
     border-radius: 30px;
+    margin-top:0.5rem;
 }
 
 .search {
@@ -57,14 +91,17 @@ body {
     }
 
 .stores-list-container {
-    width: 350px;
-    background-color: white;
-    position: absolute;
-    z-index: 30;
-    top: 320px;
-    left: 50px;
+    grid-row: 3;
+    justify-self: center;
+    width: 22rem;
+    height: 20rem;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    #background-color: #e8e8e8;
     border-radius: 30px;
     bottom: 20px;
+    border: 1px solid;
+    
 }
 
 .stores-list {
@@ -77,17 +114,18 @@ body {
 .store-container {
     display: flex;
     border-bottom: 1px solid #979797;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .store-info-container {
     flex-grow: 1;
 }
 
-.store-address  {
+.store-address {
     font-size: 21px;
     color: #514C4C;
     margin-top: 30px;
+    color: #e5e6ec;
 }
 
 .store-address span {
@@ -98,6 +136,7 @@ body {
     color: #85adad;
     margin-top: 15px;
     margin-bottom: 15px;
+    color: #fcf9f2;
 }
 
 .store-number-container {
@@ -128,7 +167,7 @@ body {
     color: rgba(0,0,0, 0.87);
 }
 
-.store-info-status {
+.store-info-status { /* not sure if needed */
     margin-top: 6px;
     border-bottom: 1px solid #00000029;
     padding-bottom: 6px;
@@ -164,5 +203,46 @@ body {
 }
 
     .store-container-background:hover {
-        background-color: #ccc;
+        #background-color: #ccc;
+        background-color: #687799;
     }
+
+.footer {
+    grid-row: 4;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #5157b0;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #5c5c5b;
+    border-radius: 10px;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #a3a39b;
+    }
+
+.club-stadium-photo {
+    #border: solid;
+    margin-top: 0.5rem;
+    width: 10rem;
+    #height: 8rem;
+    border-radius: 20px;
+}
+
+
+    
