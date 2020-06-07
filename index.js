@@ -18,14 +18,25 @@ function initMap() {
 
 function searchClubs() {
     var foundClubs = [];
-    var postCode = document.getElementById('postcode-code-input').value;
-    if (postCode) {
+    var postCode = document.getElementById('keyword-input').value; // Get value from search box
+    postCode = postCode.toLowerCase();
+    console.log("input is " + postCode);
+    
+    /*if (postCode) {
         clubs.forEach(function (club) {
-            var postal = club.address.postalCode;
+            var postal = club.name;
             if (postal == postCode) {
                 foundClubs.push(club);
             }
-        });
+        });*/
+
+    if (postCode) {
+        clubs.forEach(function (club) {
+            if ((postCode == club.name.toLowerCase()) || (postCode == club.stadium.toLowerCase()) ||
+                (postCode == club.nickname) || (postCode == club.location)) {
+                foundClubs.push(club);
+            }
+    });
     } else {
         foundClubs = clubs;
     }
@@ -98,7 +109,15 @@ function showClubsMarkers(clubs) {
         bounds.extend(latlng);
         createMarker(latlng, name, stadium, website, photo, index);
     })
-    map.fitBounds(bounds);
+    if (clubs.length >= 2) {
+        map.fitBounds(bounds);
+    } else {
+        //map.fitBounds(bounds);
+        //map.setZoom(3);
+        
+        map.fitBounds(bounds);
+        map.setZoom(7);
+    }
 }
 
 

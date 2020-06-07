@@ -9,13 +9,8 @@
             "latitude": 51.555,
             "longitude": -0.108611
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "London",
-            "countryCode": "UK",
-            "postalCode": "arsenal"
-        }
-
+        "nickname": "the gunners",
+        "location": "london",
     },  {
             "name": "Aston Villa",
         "stadium": "Villa Park",
@@ -26,12 +21,8 @@
                 "latitude": 52.509167,
                 "longitude": -1.884722
             },
-            "address": {
-                "streetAddressLine1": "Address Line 1",
-                "streetAddressLine2": "Birmingham",
-                "countryCode": "UK",
-                "postalCode": "aston villa"
-            }
+        "nickname": "the villans",
+        "location": "midlands",
     }, {
         "name": "Chelsea",
         "stadium": "Stamford Bridge",
@@ -42,12 +33,8 @@
             "latitude": 51.481667,
             "longitude": -0.191111
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "London",
-            "countryCode": "UK",
-            "postalCode": "chelsea"
-        }
+        "nickname": "the gunners",
+        "location": "the blues",
     }, {
         "name": "Everton",
         "stadium": "Goodison Park",
@@ -58,12 +45,8 @@
             "latitude": 53.438889,
             "longitude": -2.966389
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "Liverpool",
-            "countryCode": "UK",
-            "postalCode": "everton"
-        }
+        "nickname": "the toffees",
+        "location": "north west",
     },  {
         "name": "Liverpool",
         "stadium": "Anfield",
@@ -74,12 +57,8 @@
             "latitude": 53.430819,
             "longitude": -2.960828
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "Liverpool",
-            "countryCode": "UK",
-            "postalCode": "liverpool"
-        }
+        "nickname": "the reds",
+        "location": "north west",
     }, {
         "name": "Manchester City",
         "stadium": "Etihad Stadium",
@@ -90,12 +69,8 @@
             "latitude": 53.482989,
             "longitude": -2.200292
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "Manchester",
-            "countryCode": "UK",
-            "postalCode": "manchester city"
-        }
+        "nickname": "the citizens",
+        "location": "north west",
     }, {
         "name": "Manchester United",
         "stadium": "Old Trafford",
@@ -106,12 +81,8 @@
             "latitude": 53.463056,
             "longitude": -2.291389
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "Manchester",
-            "countryCode": "UK",
-            "postalCode": "manchester united"
-        }
+        "nickname": "the red devils",
+        "location": "north west",
     }, {
         "name": "Newcastle United",
         "stadium": "Sports Direct Arena",
@@ -122,12 +93,8 @@
             "latitude": 54.975556,
             "longitude": -1.621667
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "Newcastle upon Tyne",
-            "countryCode": "UK",
-            "postalCode": "newcastle united"
-        }
+        "nickname": "the magpies",
+        "location": "north east",
     }, {
         "name": "Norwich City",
         "stadium": "Carrow Road",
@@ -138,12 +105,8 @@
             "latitude": 52.622128,
             "longitude": 1.308653
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "Norwich",
-            "countryCode": "UK",
-            "postalCode": "norwich"
-        }
+        "nickname": "the canaries",
+        "location": "south east",
     }, {
         "name": "Tottenham Hotspur",
         "stadium": "Tottenham Hotspur Stadium",
@@ -154,12 +117,8 @@
             "latitude": 51.603333,
             "longitude": -0.065833
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "London",
-            "countryCode": "UK",
-            "postalCode": "tottenham"
-        }
+        "nickname": "spurs",
+        "location": "london",
     }, {
         "name": "Wolverhampton Wanderers",
         "stadium": "Molineux Stadium",
@@ -170,12 +129,8 @@
             "latitude": 52.590278,
             "longitude": -2.130278
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "Wolverhampton",
-            "countryCode": "UK",
-            "postalCode": "wolverhampton"
-        }
+        "nickname": "wolves",
+        "location": "midlands",
     }, {
         "name": "Brighton and Hove Albion",
         "stadium": "The Amex",
@@ -186,12 +141,8 @@
             "latitude": 50.861822,
             "longitude": -0.083278
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "Brighton",
-            "countryCode": "UK",
-            "postalCode": "brighton"
-        }
+        "nickname": "the seagulls",
+        "location": "south east",
     }, {
         "name": "Burnley",
         "stadium": "Turf Moor",
@@ -202,12 +153,8 @@
             "latitude": 53.789167,
             "longitude": -2.230278
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "Burnley",
-            "countryCode": "UK",
-            "postalCode": "burnley"
-        }
+        "nickname": "the clarets",
+        "location": "north west",
     }, {
         "name": "Crystal Palace",
         "stadium": "Selhurst Park",
@@ -218,12 +165,8 @@
             "latitude": 51.398333,
             "longitude": -0.085556
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "London",
-            "countryCode": "UK",
-            "postalCode": "crystal palace"
-        }
+        "nickname": "the eagles",
+        "location": "london",
     }, {
         "name": "Leicester City",
         "stadium": "King Power Stadium",
@@ -234,12 +177,8 @@
             "latitude": 52.620278,
             "longitude": -1.142222
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "Leicester",
-            "countryCode": "UK",
-            "postalCode": "leicester"
-        }
+        "nickname": "the foxes",
+        "location": "midlands",
     }, {
         "name": "Southampton",
         "stadium": "St Mary's Stadium",
@@ -250,12 +189,8 @@
             "latitude": 50.905833,
             "longitude": -1.391111
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "Southampton",
-            "countryCode": "UK",
-            "postalCode": "southampton"
-        }
+        "nickname": "the saints",
+        "location": "south west",
     }, {
         "name": "Watford",
         "stadium": "Vicarage Road",
@@ -266,12 +201,8 @@
             "latitude": 51.649836,
             "longitude": -0.401486
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "Watford",
-            "countryCode": "UK",
-            "postalCode": "watford"
-        }
+        "nickname": "the hornets",
+        "location": "london",
     }, {
         "name": "West Ham United",
         "stadium": "London Stadium",
@@ -282,12 +213,8 @@
             "latitude": 51.531944,
             "longitude": 0.039444
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "London",
-            "countryCode": "UK",
-            "postalCode": "west ham"
-        }
+        "nickname": "the hammers",
+        "location": "london",
     }, {
         "name": "AFC Bournemouth",
         "stadium": "Vitality Stadium",
@@ -298,12 +225,8 @@
             "latitude": 50.7353,
             "longitude": -1.8386
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "Bournemouth",
-            "countryCode": "UK",
-            "postalCode": "bournemouth"
-        }
+        "nickname": "the cherries",
+        "location": "south west",
     }, {
         "name": "Sheffield United",
         "stadium": "Bramall Lane",
@@ -314,11 +237,7 @@
             "latitude": 53.368831858,
             "longitude": -1.46916479
         },
-        "address": {
-            "streetAddressLine1": "Address Line 1",
-            "streetAddressLine2": "Sheffield",
-            "countryCode": "UK",
-            "postalCode": "sheffield united"
-        }
+        "nickname": "the blades",
+        "location": "midlands",
     }
 ]
