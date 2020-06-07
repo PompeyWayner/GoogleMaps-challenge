@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>Football Stadium Locator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
     <script src="js/club-data.js"></script>
@@ -10,7 +11,7 @@
 <body>
     <div class=" menu">
         <header>
-            <div class="title">Premier League </div>
+            <div class="title"><img class="premier_logo" src="PremierLeague_logo.png"></div>
             <div class="title2">F<i class="far fa-futbol"></i><i class="far fa-futbol"></i>TBALL STADIUM</div>
             <div class="title3">Locator</div>
         </header>
@@ -18,25 +19,27 @@
 
         <div class="search-container">
             <div class="search">
-                <input id="postcode-code-input" type="text" placeholder="Enter postcode" />
+                <input id="postcode-code-input" type="text" placeholder="Enter club" />
                 <i class="fas fa-search" onclick="searchClubs()"></i>
             </div>
         </div>
 
 
-        <div class="stores-list-container">
-            <div class="stores-list">
-                <div class="store-container">
-                    <div class="store-info-container">
-                        <div class="store-address">
-                            <span>8480 Beverly Blvd</span>
-                            <span>Los Angeles, CA 90048</span>
+        <div class="clubs-list-container">
+            <div class="clubs-list">
+                <div class="club-container">
+                    <div class="club-container-background">
+                        <div class="club-badge">
+                            <img src="" class="club-badge-image" alt="Badge">
                         </div>
-                        <div class="store-phone-number">356-345-4654</div>
-                    </div>
-                    <div class="store-number-container">
-                        <div class="store-number">
-                            1
+                        <div class="club-info-container">
+                            <div class="club-badge"><img src="" class="club-badge-image" alt="Badge"></div>
+                            <div class="club-name"></div>
+                        </div>
+                        <div class="club-number-container">
+                            <div class="club-number">
+                                1
+                            </div>
                         </div>
                     </div>
                 </div>

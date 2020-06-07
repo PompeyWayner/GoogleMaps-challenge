@@ -46,7 +46,7 @@ function clearLocations() {
 
 
 function setOnClickListener() {
-    var clubElements = document.querySelectorAll('.store-container');
+    var clubElements = document.querySelectorAll('.club-container');
     clubElements.forEach(function (elem, index) {
         elem.addEventListener('click', function () {
             google.maps.event.trigger(markers[index], 'click');
@@ -57,25 +57,23 @@ function setOnClickListener() {
 function displayClubs(clubs) {
     var clubsHtml = "";
     clubs.forEach(function (club, index) {
-        console.log("entered displaystores()")
-        //var address = store.addressLines;
-        
-        //var address1 = store.address.streetAddressLine1;
+        //console.log("entered displaystores()")
         var name = club.name;
-        var phone = club.phoneNumber;
+        var badge = club.badge;
         var stadium = club.stadium;
+
         clubsHtml += `
-            <div class="store-container">
-                <div class="store-container-background">
-                    <div class="store-info-container">
-                        <div class="store-address">
-                            <span>${name}</span>
-                            <span>${stadium}</span>
-                        </div>
-                        <div class="store-phone-number">${phone}</div>
+            <div class="club-container">
+                <div class="club-container-background">
+                    <div class="club-badge">
+                        <img src="${badge}" class="club-badge-image" alt="Badge">
                     </div>
-                    <div class="store-number-container">
-                        <div class="store-number">
+                    <div class="club-info-container">            
+                        <div class="club-name">${name}</div>   
+                        <div class="club-stadium">${stadium}</div>
+                    </div>
+                    <div class="club-number-container">
+                        <div class="club-number">
                             ${index + 1}
                         </div>
                     </div>
@@ -83,7 +81,7 @@ function displayClubs(clubs) {
             </div>
         `
     });
-    document.querySelector('.stores-list').innerHTML = clubsHtml;
+    document.querySelector('.clubs-list').innerHTML = clubsHtml;
 }
 
 
@@ -94,37 +92,36 @@ function showClubsMarkers(clubs) {
             club.coordinates.latitude,
             club.coordinates.longitude);
         var name = club.name;
-        var address = club.address.streetAddressLine1;
+        var stadium = club.stadium;
         var photo = club.photo;
-       // var statusText = store.openStatusText;
-        var phone = club.phoneNumber;
+        var website = club.website;
         bounds.extend(latlng);
-        createMarker(latlng, name, address, phone, photo, index);
+        createMarker(latlng, name, stadium, website, photo, index);
     })
     map.fitBounds(bounds);
 }
 
 
-function createMarker(latlng, name, address, phone, photo, index) {
+function createMarker(latlng, name, stadium, website, photo, index) {
     var html = `
-        <div class="store-info-container">
-            <div class="store-info-name">
+        <div class="club-info-container">
+            <div class="club-info-name">
                 ${name}
             </div>
-            <div class="store-info-address">
+            <div class="club-info-address">
                 <div class="circle">
                     <i class="fas fa-location-arrow"></i>
                 </div>
-                ${address}
+                ${stadium}
             </div>
-            <div class="store-info-phone">
+            <div class="club-info-website">
                 <div class="circle">
-                    <i class="fas fa-phone-alt"></i>
+                    <i class="fas fa-globe"></i>
                 </div>
-                ${phone}
+                <a href="${website}" target="_blank">Website</a>
             </div>
         </div>
-        <div ><img class="club-stadium-photo" src="${photo}" alt="Italian Trulli"></div>
+        <div><img class="club-stadium-photo" src="${photo}" alt="Stadium Photo"></div>
     `;
     var marker = new google.maps.Marker({
         map: map,

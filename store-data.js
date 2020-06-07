@@ -2,20 +2,20 @@ let stores = [{
     "recommendation": {},
     "storeNumber": "5758-13907",
     "id": "15051",
-    "name": "La Cienega & Gregory Way",
-    "phoneNumber": "310-659-9562",
+    "name": "Arsenal",
+    "website": "https://www.canaries.co.uk/",
     "coordinates": {
-        "latitude": 34.063584,
-        "longitude": -118.376354
+        "latitude": 51.555,
+        "longitude": -0.108611
     },
     "regulations": [],
     "address": {
-        "streetAddressLine1": "257 S. La Cienega Blvd.",
+        "streetAddressLine1": "Emirates Stadium",
         "streetAddressLine2": null,
         "streetAddressLine3": null,
-        "city": "Beverly Hills",
+        "city": "London",
         "countrySubdivisionCode": "CA",
-        "countryCode": "US",
+        "countryCode": "UK",
         "postalCode": "902113301"
     },
     "timeZoneInfo": {

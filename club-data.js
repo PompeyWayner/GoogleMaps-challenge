@@ -2,8 +2,9 @@
     {
         "name": "Arsenal",
         "stadium": "Emirates Stadium",
+        "badge": "arsenal-badge.JPG",
         "photo": "arsenal.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.arsenal.com/",
         "coordinates": {
             "latitude": 51.555,
             "longitude": -0.108611
@@ -12,14 +13,15 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "London",
             "countryCode": "UK",
-            "postalCode": "902113302"
+            "postalCode": "arsenal"
         }
 
     },  {
             "name": "Aston Villa",
         "stadium": "Villa Park",
+        "badge": "aston-villa-badge.JPG",
         "photo": "aston_villa.JPG",
-            "phoneNumber": "310-659-9562",
+        "website": "https://www.avfc.co.uk/",
             "coordinates": {
                 "latitude": 52.509167,
                 "longitude": -1.884722
@@ -28,13 +30,14 @@
                 "streetAddressLine1": "Address Line 1",
                 "streetAddressLine2": "Birmingham",
                 "countryCode": "UK",
-                "postalCode": "902113301"
+                "postalCode": "aston villa"
             }
     }, {
         "name": "Chelsea",
         "stadium": "Stamford Bridge",
+        "badge": "chelsea-badge.JPG",
         "photo": "chelsea.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.chelseafc.com/en",
         "coordinates": {
             "latitude": 51.481667,
             "longitude": -0.191111
@@ -43,13 +46,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "London",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "chelsea"
         }
     }, {
         "name": "Everton",
         "stadium": "Goodison Park",
+        "badge": "everton-badge.JPG",
         "photo": "everton.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.evertonfc.com/",
         "coordinates": {
             "latitude": 53.438889,
             "longitude": -2.966389
@@ -58,13 +62,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "Liverpool",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "everton"
         }
     },  {
         "name": "Liverpool",
         "stadium": "Anfield",
+        "badge": "liverpool-badge.JPG",
         "photo": "liverpool.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.liverpoolfc.com/",
         "coordinates": {
             "latitude": 53.430819,
             "longitude": -2.960828
@@ -73,13 +78,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "Liverpool",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "liverpool"
         }
     }, {
         "name": "Manchester City",
         "stadium": "Etihad Stadium",
+        "badge": "man-city-badge.JPG",
         "photo": "manchester_city.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.mancity.com/",
         "coordinates": {
             "latitude": 53.482989,
             "longitude": -2.200292
@@ -88,13 +94,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "Manchester",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "manchester city"
         }
     }, {
         "name": "Manchester United",
         "stadium": "Old Trafford",
+        "badge": "man-utd-badge.JPG",
         "photo": "manchester_utd.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.manutd.com/en",
         "coordinates": {
             "latitude": 53.463056,
             "longitude": -2.291389
@@ -103,13 +110,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "Manchester",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "manchester united"
         }
     }, {
         "name": "Newcastle United",
         "stadium": "Sports Direct Arena",
+        "badge": "newcastle-badge.JPG",
         "photo": "newcastle.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.nufc.co.uk/",
         "coordinates": {
             "latitude": 54.975556,
             "longitude": -1.621667
@@ -118,13 +126,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "Newcastle upon Tyne",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "newcastle united"
         }
     }, {
         "name": "Norwich City",
         "stadium": "Carrow Road",
+        "badge": "norwich-badge.JPG",
         "photo": "norwich.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.canaries.co.uk/",
         "coordinates": {
             "latitude": 52.622128,
             "longitude": 1.308653
@@ -138,8 +147,9 @@
     }, {
         "name": "Tottenham Hotspur",
         "stadium": "Tottenham Hotspur Stadium",
+        "badge": "tottenham-badge.JPG",
         "photo": "tottenham.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.tottenhamhotspur.com/",
         "coordinates": {
             "latitude": 51.603333,
             "longitude": -0.065833
@@ -148,13 +158,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "London",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "tottenham"
         }
     }, {
         "name": "Wolverhampton Wanderers",
         "stadium": "Molineux Stadium",
+        "badge": "wolves-badge.JPG",
         "photo": "wolverhampton.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.wolves.co.uk/",
         "coordinates": {
             "latitude": 52.590278,
             "longitude": -2.130278
@@ -163,13 +174,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "Wolverhampton",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "wolverhampton"
         }
     }, {
         "name": "Brighton and Hove Albion",
         "stadium": "The Amex",
+        "badge": "brighton-badge.JPG",
         "photo": "brighton.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.brightonandhovealbion.com/",
         "coordinates": {
             "latitude": 50.861822,
             "longitude": -0.083278
@@ -178,13 +190,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "Brighton",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "brighton"
         }
     }, {
         "name": "Burnley",
         "stadium": "Turf Moor",
+        "badge": "burnley-badge.JPG",
         "photo": "burnley.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.burnleyfootballclub.com/",
         "coordinates": {
             "latitude": 53.789167,
             "longitude": -2.230278
@@ -193,13 +206,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "Burnley",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "burnley"
         }
     }, {
         "name": "Crystal Palace",
         "stadium": "Selhurst Park",
+        "badge": "crystal-palace-badge.JPG",
         "photo": "crystal_palace.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.cpfc.co.uk/",
         "coordinates": {
             "latitude": 51.398333,
             "longitude": -0.085556
@@ -208,13 +222,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "London",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "crystal palace"
         }
     }, {
         "name": "Leicester City",
         "stadium": "King Power Stadium",
+        "badge": "leicester-badge.JPG",
         "photo": "leicester.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.lcfc.com/",
         "coordinates": {
             "latitude": 52.620278,
             "longitude": -1.142222
@@ -223,13 +238,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "Leicester",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "leicester"
         }
     }, {
         "name": "Southampton",
         "stadium": "St Mary's Stadium",
+        "badge": "southampton-badge.JPG",
         "photo": "southampton.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.southamptonfc.com/",
         "coordinates": {
             "latitude": 50.905833,
             "longitude": -1.391111
@@ -238,13 +254,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "Southampton",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "southampton"
         }
     }, {
         "name": "Watford",
         "stadium": "Vicarage Road",
+        "badge": "watford-badge.JPG",
         "photo": "watford.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.watfordfc.com/",
         "coordinates": {
             "latitude": 51.649836,
             "longitude": -0.401486
@@ -253,13 +270,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "Watford",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "watford"
         }
     }, {
         "name": "West Ham United",
         "stadium": "London Stadium",
+        "badge": "west-ham-badge.JPG",
         "photo": "west_ham.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.whufc.com/",
         "coordinates": {
             "latitude": 51.531944,
             "longitude": 0.039444
@@ -268,13 +286,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "London",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "west ham"
         }
     }, {
         "name": "AFC Bournemouth",
         "stadium": "Vitality Stadium",
+        "badge": "bournemouth-badge.JPG",
         "photo": "bournemouth.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.afcb.co.uk/",
         "coordinates": {
             "latitude": 50.7353,
             "longitude": -1.8386
@@ -283,13 +302,14 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "Bournemouth",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "bournemouth"
         }
     }, {
         "name": "Sheffield United",
         "stadium": "Bramall Lane",
+        "badge": "sheffield-utd-badge.JPG",
         "photo": "sheffield_utd.JPG",
-        "phoneNumber": "310-659-9562",
+        "website": "https://www.sufc.co.uk/",
         "coordinates": {
             "latitude": 53.368831858,
             "longitude": -1.46916479
@@ -298,7 +318,7 @@
             "streetAddressLine1": "Address Line 1",
             "streetAddressLine2": "Sheffield",
             "countryCode": "UK",
-            "postalCode": "902113301"
+            "postalCode": "sheffield united"
         }
     }
 ]

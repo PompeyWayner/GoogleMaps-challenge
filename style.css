@@ -8,7 +8,6 @@ body {
 #map {
     grid-column: 2;
     height: 96vh;
-    #width: 920px;
     border: 5px solid #5157b0;
     border-radius: 30px;
     left: 0.3125rem;
@@ -18,23 +17,26 @@ header {
     grid-row: 1;
 }
 
-
-
 .menu {
     grid-column: 1;
     display: grid;
-    grid-template-rows: 20% 15% 60% 5%;
+    grid-template-rows: 24% 15% 56% 5%;
     height: 96vh;
-    border: 5px solid #5157b0;
+    border: 0.313rem solid #5157b0;
     border-radius: 30px;
-    # background-color: #aadaff;
+    # background-color: #aadaff; 
     background-image: url("../stadium_photo.JPG");
     background-attachment: fixed;
     background-size: 100% 100%;
 }
 
+.premier_logo {
+    width: 12rem;
+    height: auto;
+    text-align: center;
+}
+
 .title {
-    margin-top: 1rem;
     text-align: center;
     font-size: 1rem;
     color: #e5e6ec;
@@ -68,13 +70,13 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
     .search input {
         width: 100%;
-        font-size: 25px;
+        font-size: 1.563rem;
         border: none;
         background-color: transparent;
         color: white;
@@ -86,67 +88,89 @@ header {
 
     .search i {
         color: white;
-        font-size: 25px;
+        font-size: 1.563rem;
         cursor: pointer;
     }
 
-.stores-list-container {
+.clubs-list-container {
     grid-row: 3;
     justify-self: center;
     width: 22rem;
-    height: 20rem;
+    height: 15rem;
     background-color: transparent;
     backdrop-filter: blur(5px);
     #background-color: #e8e8e8;
     border-radius: 30px;
-    bottom: 20px;
-    border: 1px solid;
-    
+    border: 1px solid;  
 }
 
-.stores-list {
-    padding-left: 20px;
-    padding-right: 20px;
+.clubs-list {
+    padding-left: 1rem;
+    padding-right: 1rem;
     overflow-y: scroll;
     height: 100%;
 }
 
-.store-container {
+.club-container-background {
+    width: 100%;
+    display: flex;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-radius: 18px;
+    transition: background 0.2s ease-in-out;
+}
+
+    .club-container-background:hover {
+        background-color: #687799;
+    }
+
+.club-container {
     display: flex;
     border-bottom: 1px solid #979797;
     cursor: pointer;
 }
 
-.store-info-container {
+.club-info-container {
     flex-grow: 1;
+    padding: 0.5rem;
 }
 
-.store-address {
-    font-size: 21px;
-    color: #514C4C;
-    margin-top: 30px;
+.club-name {
+    display: inline;
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
     color: #e5e6ec;
 }
 
-.store-address span {
-    display: block;
+.club-badge {
+    display: inline;
+    align-self: center;
+    padding-right: 0.5rem;
 }
 
-.store-phone-number {
+.club-badge-image {
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+}
+
+.club-stadium {
     color: #85adad;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     color: #fcf9f2;
 }
 
-.store-number-container {
+.club-number-container {
     align-items: center;
     display: flex;
 }
 
-.store-number {
-    width: 30px;
-    height: 30px;
+.club-number {
+    width: 1.875rem;
+    height: 1.875rem;
     background-color: #454e53;
     color: white;
     display: flex;
@@ -155,56 +179,28 @@ header {
     border-radius: 50%;
 }
 
-.store-info-window {
-    min-width: 300px;
-    font-size: 18px;
-    padding: 8px;
-}
-
-.store-info-name {
-    font-size: 24px;
+.club-info-name {
+    font-size: 1.5rem;
     font-weight: bold;
     color: rgba(0,0,0, 0.87);
 }
 
-.store-info-status { /* not sure if needed */
-    margin-top: 6px;
-    border-bottom: 1px solid #00000029;
-    padding-bottom: 6px;
-}
-
-.store-info-address, .store-info-phone {
-    margin-top: 8px;
+.club-info-address, .club-info-website {
+    margin-top: 0.5rem;
     display: flex;
     align-items: center;
 }
 
-    .store-info-address .circle, .store-info-phone .circle {
-        width: 30px;
-        height: 30px;
+    .club-info-address .circle, .club-info-website .circle {
+        width: 1.875rem;
+        height: 1.875rem;
         background-color: #1985A1;
         border-radius: 50%;
         color: white;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right: 8px;
-    }
-
-.store-container-background {
-    width: 100%;
-    display: flex;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    border-radius: 18px;
-    transition: background 0.2s ease-in-out;
-}
-
-    .store-container-background:hover {
-        #background-color: #ccc;
-        background-color: #687799;
+        margin-right: 0.5rem;
     }
 
 .footer {
@@ -216,7 +212,7 @@ header {
 
 /* width */
 ::-webkit-scrollbar {
-    width: 20px;
+    width: 1.25rem;
 }
 
 /* Track */
@@ -237,12 +233,46 @@ header {
     }
 
 .club-stadium-photo {
-    #border: solid;
     margin-top: 0.5rem;
     width: 10rem;
-    #height: 8rem;
     border-radius: 20px;
 }
 
+a {
+    text-decoration: none;
+}
 
-    
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .body {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .example {
+        background: green;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .example {
+        background: blue;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .example {
+        background: orange;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .example {
+        background: pink;
+    }
+}
